@@ -1,10 +1,10 @@
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common.mk)
+# Inherit common lycan stuff
+$(call inherit-product, vendor/lycan/config/common.mk)
 
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+# Include lycan audio files
+include vendor/lycan/config/lycan_audio.mk
 
-# Optional CM packages
+# Optional lycan packages
 PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \
@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     PhotoPhase \
     Screencast
 
-# Extra tools in CM
+# Extra tools in lycan
 PRODUCT_PACKAGES += \
     7z \
     lib7z \
